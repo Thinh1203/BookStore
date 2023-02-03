@@ -1,0 +1,60 @@
+.img-zoom{
+    transition: all 0.3s ease-in-out;
+}
+.img-zoom img::before{
+    border: 3px solid red;
+    border-radius: 5px;
+}
+.img-zoom:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.img-zoom p {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    visibility: hidden;
+    font-weight: bold;
+}
+.img-zoom:hover p {
+    visibility: visible;
+    font-size: 16px;
+    transform: translateY(-80%);
+    transition: all 0.4s ease-in-out;
+}
+
+.img-name {
+    position: absolute;
+    background-color: none;
+    left: 20%;
+    bottom: 20%;
+    letter-spacing: 5px;
+    transform: translateX(5%);
+}
+.img-name a {
+    visibility: hidden;
+    color: #ffffff;
+}
+.img-name:hover a{
+    visibility: visible;
+    font-size: 18px;
+}
+body {
+    background-color: rgb(219, 218, 218);
+}
+footer {
+    background-color: white;
+}
+.menu-list li {
+    font-size: 18px;
+}
+.menu-list li a{
+    color: black;
+}
+.menu-list li a:hover{
+    color: red ;
+}
+.list-icon-footer li{
+    font-size: 32px;
+    margin: 0px 15px;
+}

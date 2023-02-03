@@ -1,0 +1,75 @@
+body {
+    overflow-x: hidden;
+}
+.secssion_foot{
+    background-color: #120f0fdc;
+    font-size: 14px;
+}
+.title{
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.container:after, .row:after, .clearfix:after, .clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
+.footer_content{
+    color: rgb(235, 227, 217);
+    margin: 0;
+}
+.footer_content a:hover{
+    color: red;
+}
+.form_box{
+    margin: 20px 0;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+footer {
+    bottom: 0;
+}
+footer a > i::before {
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: aliceblue;
+}
+footer a#facebook > i::before{
+    background-color: #4371cd;
+    border: 1px solid #4371cd;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+footer a#instagram > i::before{
+    background-color: #405DE6;
+    border: 1px solid #405DE6;
+} 
+footer a#twitter > i::before{
+    background-color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+} 
+footer a#pinterest > i::before{
+    background-color: #E60023;
+    border: 1px solid #E60023;
+    padding-right: 8px;
+    padding-left: 8px;
+} 
+footer a#rss > i::before{
+    background-color: #f26522;
+    border: 1px solid #f26522;
+    padding-right: 7px;
+    padding-left: 7px;
+} 
+.bg_footer{
+    background-color: rgba(0,0,0);
+}
